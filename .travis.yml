@@ -24,7 +24,7 @@ matrix:
     - arch: arm64
       node_js: '4'
       env: TEST_SUITE=test
-    - arch:arm64
+    - arch: arm64
       node_js: '4'
       env: TEST_SUITE=phantom
 script: "npm run-script $TEST_SUITE"
